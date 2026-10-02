@@ -15,6 +15,9 @@ The project includes SQL queries for analyzing rental activity, customer
 spending, transaction history, vehicle availability, rental duration,
 and estimated revenue.
 
+## Entity Relationship Diagram
+<img width="1536" height="1024" alt="Vehicle Rental Database ER Diagram" src="https://github.com/user-attachments/assets/3f61a913-7454-4d23-a700-513e1de33803" />
+
 ## My Contribution
 
 My individual SQL queries focused on:
