@@ -1,4 +1,4 @@
-USE Rental DB
+USE RentalDB;
 
 # Insert customer
 INSERT INTO Customer_Info VALUES
