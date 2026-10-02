@@ -4,7 +4,7 @@ USE RentalDB;
 INSERT INTO Customer_Info VALUES
 (1, 'Smith', 'John', '123 Main St', '800-423-7890'),
 (2, 'Doe', 'Jane', '456 Oak Ave', '214-429-9722'),
-(3, 'James', 'LeBron', '789 Pine Blvd', '210-410-1604');
+(3, 'James', 'Tyler', '789 Pine Blvd', '210-410-1604');
 
 # INSERT MODELS (FIXED ORDER: Model_Name, Make)
 INSERT INTO Model_Info VALUES
