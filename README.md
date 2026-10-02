@@ -1,2 +1,5 @@
 # Vehicle-Database-Repository
 Relational SQL database for managing vehicle rentals, customers, vehicles, transactions, and rental activity, with analytical queries for customer spending and rental revenue.
+Vehicle Rental Management Database is a team SQL database project designed to manage customer, vehicle, rental, and transaction information for a vehicle rental business. The database uses relational tables with primary and foreign keys to connect customers, vehicle models, vehicles, rental records, and transactions.
+The project includes SQL queries for analyzing rental activity, customer spending, transaction history, vehicle availability, rental duration, and estimated revenue. It demonstrates relational database design, multi-table joins, aggregate functions, subqueries, filtering, grouping, and calculated fields.
+This project was completed as part of a four-person team. My individual SQL queries focused on analyzing customer spending and rental activity and calculating rental duration and estimated revenue.
