@@ -1,7 +1,7 @@
 CREATE DATABASE RentalDB;
 USE RentalDB;
 
-# Customer 
+-- Customer 
 CREATE TABLE Customer_Info (
     Customer_ID INT PRIMARY KEY,
     Customer_LName VARCHAR(50) NOT NULL,
@@ -10,14 +10,14 @@ CREATE TABLE Customer_Info (
     Customer_Phone VARCHAR(15)
 );
 
-# Model Info
+-- Model Info
 CREATE TABLE Model_Info (
     Model_ID INT PRIMARY KEY,
     Model_Name VARCHAR(50),
     Make VARCHAR(50)
 );
 
-# Vehicle
+-- Vehicle
 CREATE TABLE Vehicle (
     Vehicle_ID INT PRIMARY KEY,
     License_Plate VARCHAR(20) NOT NULL,
@@ -30,7 +30,7 @@ CREATE TABLE Vehicle (
     FOREIGN KEY (Model_ID) REFERENCES Model_Info(Model_ID)
 );
 
-# Rental record
+-- Rental record
 CREATE TABLE Rental_Record (
     Rental_Record_ID INT PRIMARY KEY,
     Customer_ID INT,
@@ -42,7 +42,7 @@ CREATE TABLE Rental_Record (
     FOREIGN KEY (Vehicle_ID) REFERENCES Vehicle(Vehicle_ID)
 );
 
-# Transaction
+-- Transaction
 CREATE TABLE Transaction_Table (
     Transaction_ID INT PRIMARY KEY,
     Rental_Record_ID INT,
